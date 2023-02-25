@@ -24,7 +24,7 @@ pip install nonebot-plugin-bf1-groptools
 * 使用nb_cli
 ```
 nb plugin install nonebot_plugin_bf1_groptools
- 
+```
 
 
 ## 更多
