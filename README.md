@@ -14,13 +14,17 @@
 
 
 ## 安装
-* 使用nb_cli  
-    `nb plugin install nonebot_plugin_bf1_groptools` 
-    
-* 使用pip  
-    `pip install nonebot-plugin-bf1-groptools`  
+* 使用pip 
+```
+pip install nonebot-plugin-bf1-groptools
+```
 并在bot根目录的`pyproject.toml`文件中加入  
-    `plugins = ["nonebot_plugin_bf1_groptools"]`  
+    `plugins = ["nonebot_plugin_bf1_groptools"]` 
+
+* 使用nb_cli
+```
+nb plugin install nonebot_plugin_bf1_groptools
+ 
 
 
 ## 更多
