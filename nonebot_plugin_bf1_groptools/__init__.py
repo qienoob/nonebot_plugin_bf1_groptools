@@ -25,8 +25,10 @@ async def _(event: GroupRequestEvent, bot: Bot):
     else:
         await bot.call_api("set_group_add_request", flag=event.flag, sub_type=event.sub_type,
                            approve=False, reason='id认证错误，请检查您输入的是否为游戏内id')
+        await requ.finish()
+        
 
-
+        
 def _check1(event: Event):
     return isinstance(event, GroupIncreaseNoticeEvent)
 
