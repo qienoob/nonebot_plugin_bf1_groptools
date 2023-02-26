@@ -24,7 +24,7 @@ plugins = ["nonebot_plugin_bf1_groptools"]
 ```
 
 
-* 使用nb_cli
+* 使用nb_cli（推荐）
 ```
 nb plugin install nonebot_plugin_bf1_groptools
 ```
